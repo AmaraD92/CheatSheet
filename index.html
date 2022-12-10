@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Leave comments with these brackets in an HTML sheet-->
+<html>
+<!-- You have to call the Style Sheet with the below line within the header-->
+<!--Add &lt; and &gt; for all code that is supposed to be text *Look up CDATA later*-->
+
+<head>
+  <title>CSS and HTML Cheat Sheet</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <!-- The 'nav' tag is short for navigation bar-->
+  <nav class="header"> <!-- The class lets you streamline certain properties-->
+    <span class="logo"> Amara's Official Cheat Sheet</span>
+    <!--'span' is for inline elements; block elements use 'div'-->
+    <ul>
+      <li><a href="home">Home Page Test</a></li>
+      <li><a href="mid">Mid Page Test</a></li>
+      <li><a href="end">End Page Test</a></li>
+    </ul>
+  </nav>
+  <!-- Banner Block-->
+  <div class="banner">
+    <h1> Heading 1 Banner Test</h1>
+    <h2> Heading 2 Test</h2>
+  </div>
+
+  <!--Testing Paragraph and Text CSS changes-->
+  <div class="words">
+    <p>For text that is supposed to be read as code, I have created a <span class="code">&lt; span class &gt; </span> since it would be an inline element.</p>
+  <span class="websafe">
+    <p>There may be some fonts that are not websafe. In order to load them, we have to do the following: </p>
+    <ol>
+      <li>Add font link with a tag or import it to the stylesheet </li>
+      <li>Set the typeface in their respective tag </li>
+      <li>Set fallback fonts</li>
+    </ol>
+  </span>
+
+  </div>
+  <!--Testing Images-->
+  <div class="photo">
+    <img src="<!--enter location of pic-->" alt="">
+    <span class="caption">
+      I created a caption that is pink and italicized by using .photo .caption in the CSS stylesheet
+    </span>
+  </div>
+
+  <!--Overlapping, Margin and Placement Practice-->
+  <div class="placement">
+
+  </div>
+
+  <!--Testing Tables-->
+  <div class="tables">
+    <table>
+      <thead> <!--This is for the table header-->
+        <tr>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody> <!-- This is for the table body-->
+        <tr>
+          <td>
+            <span class="code">&lt; Table &gt;</span>
+          </td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Table Head</td>
+          <td>The rows defining the column headers in a table</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!--Testing Buttons-->
+  <div class="buttons">
+
+  </div>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
