@@ -48,7 +48,19 @@ th {
   text-transform: uppercase;
   font-weight: bolder;
 }
+
 .code {
   font-family: monospace;
   background-color: palevioletred;
+  display: block;
+}
+
+.header{
+  background-color: lightsalmon;
+}
+
+.header li:hover{
+  text-decoration: none;
+  color: black;
+  cursor:pointer;
 }
