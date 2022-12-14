@@ -12,7 +12,43 @@ html {
   }
 }
 
+html, body {
+  width: 100%; 
+  text-align: center; 
+  background-color: wheat;
+  color: saddlebrown;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  width: 0%, auto;
+  background-color: seagreen;
+  font-weight: bold;
+  font-size: 24px;
+  color:darkslategray
+}
+
+h2{
+  width: 0%, auto;
+  background-color: skyblue;
+  font-weight: bold;
+  font-size: 20px;
+  color:midnightblue;
+}
+
+table, th, td {
+  margin: 0 auto;  
+  width: 50%;
+  border: 3px solid darkorange;
+}
+
+th {
+  background-color: darkmagenta; 
+  color: gold; 
+  text-transform: uppercase;
+  font-weight: bolder;
+}
 .code {
   font-family: monospace;
-  background-color: beige;
+  background-color: palevioletred;
 }

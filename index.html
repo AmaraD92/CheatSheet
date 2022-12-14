@@ -9,15 +9,15 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
-<body>
+<body id="home">
   <!-- The 'nav' tag is short for navigation bar-->
   <nav class="header"> <!-- The class lets you streamline certain properties-->
     <span class="logo"> Amara's Official Cheat Sheet</span>
     <!--'span' is for inline elements; block elements use 'div'-->
     <ul>
-      <li><a href="home">Home Page Test</a></li>
-      <li><a href="mid">Mid Page Test</a></li>
-      <li><a href="end">End Page Test</a></li>
+      <li><a href="#home">Home Page Test</a></li>
+      <li><a href="#mid">Mid Page Test</a></li>
+      <li><a href="#end">End Page Test</a></li>
     </ul>
   </nav>
   <!-- Banner Block-->
@@ -30,7 +30,7 @@
   <div class="words">
     <p>For text that is supposed to be read as code, I have created a <span class="code">&lt; span class &gt; </span> since it would be an inline element.</p>
   <span class="websafe">
-    <p>There may be some fonts that are not websafe. In order to load them, we have to do the following: </p>
+    <p id="mid">There may be some fonts that are not websafe. In order to load them, we have to do the following: </p>
     <ol>
       <li>Add font link with a tag or import it to the stylesheet </li>
       <li>Set the typeface in their respective tag </li>
@@ -102,8 +102,8 @@
 
   </div>
 
-  <footer>
-
+  <footer id="end">
+    <p> Amara Dillard 2022</p>
   </footer>
 </body>
 </html>
